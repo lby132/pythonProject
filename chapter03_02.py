@@ -13,3 +13,12 @@ str2_t2 = str()
 
 print(type(str1_t1), len(str1_t1))
 print(type(str2_t2), len(str2_t2))
+
+# 이스케이프 문자 사용
+# I'm B
+
+print("I'm B")
+print("I\'m B")
+
+print('a \t b')
+print('a \"\" b')
