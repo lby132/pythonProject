@@ -22,3 +22,20 @@ print("I\'m B")
 
 print('a \t b')
 print('a \"\" b')
+
+escape_str1 = "Do you have a \"retro games\"?"
+print(escape_str1)
+escape_str2 = 'What\'s on TV?'
+print(escape_str2)
+
+# 탭, 줄 바꿈
+t_s1 = "Click \t Start!"
+t_s2 = "New Line \n Check!"
+
+print(t_s1)
+print(t_s2)
+print()
+
+# Raw String
+raw_s1 = r'D:\python\test'
+print(raw_s1)
